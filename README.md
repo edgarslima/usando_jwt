@@ -4,12 +4,18 @@ Detalhes
 
 Este projeto tem o objetivo de apenas ilustrar o uso do jwt, servindo de ponto de partida para outros projetos.
 
+
+
 Recursos
 
 Criação de usuário utilizando o MongoDB
+
 Gravação de senha segura usando hash
+
 Validação de usuário retornando um token válido
+
 Validação do token gerado para acessar um recurso de teste
+
 
 Falta fazer
 
