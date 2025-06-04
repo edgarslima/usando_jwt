@@ -16,6 +16,18 @@ Validação de usuário retornando um token válido
 
 Validação do token gerado para acessar um recurso de teste
 
+Testando a validação do token
+=============================
+
+Para testar se o token é aceito pela aplicação acesse o endpoint `/testetoken`
+enviando o cabeçalho `Authorization: Bearer <token>`.
+
+Exemplo de requisição:
+
+```
+curl -H "Authorization: Bearer <token>" http://localhost:3000/testetoken
+```
+
 
 Falta fazer
 
