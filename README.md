@@ -31,11 +31,14 @@ curl -H "Authorization: Bearer <token>" http://localhost:3000/testetoken
 ```
 
 
-Falta fazer
+## TODO
 
-Validação de expiração
-Troca de senha de usuário
-Mapear recursos que o usuário pode acessar, negando recursos que não tem permissão, mesmo quando o token for válido 
-
+- Validação de expiração do token
+- Troca de senha de usuário autenticado
+- Mapear recursos por permissões e negar acesso não autorizado
+- Configurar serviço de e-mail real
+- Usar variáveis de ambiente para segredos e conexões
+- Adicionar testes automatizados
+- Documentar todos os endpoints
 
 Obs.: Este projeto tem o objetivo de ser evolutivo, utilizando os padrões e boas práticas de desenvolvimento
