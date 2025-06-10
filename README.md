@@ -16,6 +16,8 @@ Validação de usuário retornando um token válido
 
 Validação do token gerado para acessar um recurso de teste
 
+Recuperação de senha enviando token por e-mail
+
 Testando a validação do token
 =============================
 
